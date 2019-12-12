@@ -1,11 +1,11 @@
 # A (simple) guide on using Ansible
 
 ## Premessa
-- srv2 e' la workstation di 'controllo' da dove useremo ansible
-- srv_remote e' una macchina FreeBSD 10+ che vogliamo gestire con ansible da srv2
+- **srv2** e' la workstation di 'controllo' da dove useremo ansible
+- **srv_remote** e' una macchina FreeBSD 10+ che vogliamo gestire con ansible da srv2
 - srv_remote ha sshd in ascolto sulla port 2202
-- su srv2 e srv_remote useremo l'utente "dave"
-- dave@srv2 ha copiato la sua chiave pubblica su dave@srv_remote
+- su srv2 e srv_remote useremo l'utente **dave**
+- dave@srv2 ha copiato la sua chiave ssh pubblica su dave@srv_remote
 
 
 ## Installazione
